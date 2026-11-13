@@ -1,0 +1,12 @@
+Total number of books: 1000
+Number of books with 5 stars: 196
+Average book price: 35.0703
+Most expensive book: The Perfect Play (Play by Play #1) (59.99)
+Cheapest book: An Abundance of Katherines (10)
+Number of books with 1 star: 226
+Longest title: At The Existentialist Café: Freedom, Being, and apricot cocktails with: Jean-Paul Sartre, Simone de Beauvoir, Albert Camus, Martin Heidegger, Edmund Husserl, Karl Jaspers, Maurice Merleau-Ponty and others
+Shortest title: It
+Number of downloaded pages: 50
+Number of unique URLs: 50
+Total time: 36.256 seconds
+Throughput: 1.37908 pages/second

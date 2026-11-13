@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Gumbo">
+      <UniqueIdentifier>{b7fb3cdf-24c5-484d-8f74-7db8877b45c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Parallel">
+      <UniqueIdentifier>{8a2b647a-657e-4861-a9f9-703f3e7ba24b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Serial">
+      <UniqueIdentifier>{36fbde87-dcd3-48db-b6ce-57d25e10a6a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Parallel">
+      <UniqueIdentifier>{7426f322-90de-45dc-8113-5b2f0e515dfe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Serial">
+      <UniqueIdentifier>{66d9fe6e-43f0-464a-85dc-e1846123fc9e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\gumbo\gumbo-parser\src\attribute.c">
+      <Filter>Gumbo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\gumbo\gumbo-parser\src\char_ref.c">
+      <Filter>Gumbo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\gumbo\gumbo-parser\src\error.c">
+      <Filter>Gumbo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\gumbo\gumbo-parser\src\parser.c">
+      <Filter>Gumbo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\gumbo\gumbo-parser\src\string_buffer.c">
+      <Filter>Gumbo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\gumbo\gumbo-parser\src\string_piece.c">
+      <Filter>Gumbo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\gumbo\gumbo-parser\src\tag.c">
+      <Filter>Gumbo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\gumbo\gumbo-parser\src\tokenizer.c">
+      <Filter>Gumbo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\gumbo\gumbo-parser\src\utf8.c">
+      <Filter>Gumbo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\gumbo\gumbo-parser\src\util.c">
+      <Filter>Gumbo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\gumbo\gumbo-parser\src\vector.c">
+      <Filter>Gumbo</Filter>
+    </ClCompile>
+    <ClCompile Include="BookInfo.cpp">
+      <Filter>Source Files\Parallel</Filter>
+    </ClCompile>
+    <ClCompile Include="Downloader.cpp">
+      <Filter>Source Files\Parallel</Filter>
+    </ClCompile>
+    <ClCompile Include="HtmlParser.cpp">
+      <Filter>Source Files\Parallel</Filter>
+    </ClCompile>
+    <ClCompile Include="Statistics.cpp">
+      <Filter>Source Files\Parallel</Filter>
+    </ClCompile>
+    <ClCompile Include="BookInfoSerial.cpp">
+      <Filter>Source Files\Serial</Filter>
+    </ClCompile>
+    <ClCompile Include="DownloaderSerial.cpp">
+      <Filter>Source Files\Serial</Filter>
+    </ClCompile>
+    <ClCompile Include="HtmlParserSerial.cpp">
+      <Filter>Source Files\Serial</Filter>
+    </ClCompile>
+    <ClCompile Include="StatisticsSerial.cpp">
+      <Filter>Source Files\Serial</Filter>
+    </ClCompile>
+    <ClCompile Include="App.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\gumbo\gumbo-parser\src\gumbo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BookInfo.hpp">
+      <Filter>Header Files\Parallel</Filter>
+    </ClInclude>
+    <ClInclude Include="Downloader.hpp">
+      <Filter>Header Files\Parallel</Filter>
+    </ClInclude>
+    <ClInclude Include="HtmlParser.hpp">
+      <Filter>Header Files\Parallel</Filter>
+    </ClInclude>
+    <ClInclude Include="Statistics.hpp">
+      <Filter>Header Files\Parallel</Filter>
+    </ClInclude>
+    <ClInclude Include="DownloaderSerial.hpp">
+      <Filter>Header Files\Serial</Filter>
+    </ClInclude>
+    <ClInclude Include="StatisticsSerial.hpp">
+      <Filter>Header Files\Serial</Filter>
+    </ClInclude>
+    <ClInclude Include="HtmlParserSerial.hpp">
+      <Filter>Header Files\Serial</Filter>
+    </ClInclude>
+    <ClInclude Include="App.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="webScraper.txt">
+      <Filter>Source Files\Parallel</Filter>
+    </Text>
+    <Text Include="WebScraperSerial.txt">
+      <Filter>Source Files\Serial</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
